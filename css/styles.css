@@ -2,42 +2,57 @@
 
 body {
   margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
-
-
-
-
 
 h1 {
   margin-top: 0;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 /****************CLASS SELECTORS********************/
 
 .top-container {
-  width: 200px;
-  height: 200px;
+  padding-top: 100px;
   background-color: #E4F9F5;
-  padding: 20px;
-  border: solid 10px;
+  position: relative;
 }
 
 .middle-container {
   width: 200px;
   height: 200px;
   background-color: red;
-  margin-left: 260px;
-  border: solid 20px;
+
 }
 
 .bottom-container {
   width: 200px;
   height: 200px;
-  background-color: yellow;
-  border:solid 10px;
-  margin-left: 500px;
+  background-color: blue;
+
 }
 
 .pro {
   text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  top:50px;
+  right:300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left:300px;
+  bottom: 300px;
 }
