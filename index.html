@@ -3,28 +3,34 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Vijay Prakash Bhatt</title>
+  <title>Vijay Bhatt</title>
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="icons/vijay.ico">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento">
+  <script type="text/javascript" src="js/script.js"></script>
 </head>
 
 <body>
+  <div class="nav_bar" id="navbar">  
+    <a href="#about"onclick="modify_zindex()">About</a>
+    <a href="#work" onclick="modify_zindex()">Work</a>
+    <a href="#contact" onclick="modify_zindex()">Contact</a>
+  </div>
   <div class="top-container">
-    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-    <h1>I'm Vijay.</h1>
-    <h2>a software engineer.</h2>
-    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-    <img src="images/mountain.png" alt="mountain-img">
+    <img class="top-cloud" src="images/cloud-new.png" alt="cloud-img">
+    <h1 class="name">I'm Vijay.</h1>
+    <h2 class="desc">a software developer.</h2>
+    <img class="bottom-cloud" src="images/cloud-new.png" alt="cloud-img">
+    <img class="mountain" src="images/professional.png" alt="mountain-img">
   </div>
   <div class="middle-container">
-    <div class="profile">
+    <div class="profile" id="about">
       <img class="profile-pic" src="images/profile.png" alt="profile-img">
       <h2>Hello.</h2>
-      <p class="intro">I am a Full Stack Java developer with 5+ years of experience. I have worked with Cognizant, Oracle and OFS. I ❤️ tea.</p>
+      <p class="intro">I am a Full Stack Java developer with 5+ years of work experience. I have worked with Cognizant, Oracle and OFS in the past.</p>
     </div>
     <hr>
-    <div class="skills">
+    <div class="skills" id="work">
       <h2>My Skills.</h2>
       <div class="skill-row">
         <img class="java-img" src="images/java.gif" alt="java-gif">
@@ -38,7 +44,7 @@
       </div>
     </div>
     <hr>
-    <div class="contact-me">
+    <div class="contact-me" id="contact">
       <h2>Get In Touch</h2>
       <h3>If you would like to work with me.</h3>
       <p class="contact-message">Want me to contribute to your java project or have any other initiative for me ? Let's get in touch.</p>
@@ -48,11 +54,13 @@
 
 
   <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/vijayprakashbhatt/">LinkedIn</a>
-    <a class="footer-link" href="https://twitter.com/VijayPrakashB15/">Twitter</a>
-    <a class="footer-link" href="https://github.com/ttahb">Github</a>
+    <a class="footer-link" target="_blank" href="https://www.linkedin.com/in/vijayprakashbhatt/">LinkedIn</a>
+    <a class="footer-link" target="_blank" href="https://twitter.com/VijayPrakashB15/">Twitter</a>
+    <a class="footer-link" target="_blank" href="https://github.com/ttahb">Github</a>
     <p class="copyright">© 2021 Vijay Prakash Bhatt.</p>
+    <a href="credits.html" target="_blank">Credits</a>
   </div>
+
 </body>
 
 </html>
