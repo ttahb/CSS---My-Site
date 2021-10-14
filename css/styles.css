@@ -41,7 +41,7 @@ hr {
   width: 5%;
   border-width: 10px;
   border-color: #EAF6F6;
-  margin: 200px auto;
+  margin: 125px auto;
 }
 
 p {
@@ -49,6 +49,12 @@ p {
   line-height: 2;
 }
 
+ol {
+  text-align: left;
+  line-height: 2;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 50px;
+}
 /****************CLASS SELECTORS********************/
 .nav_bar {
   background-color: #f8fcfc;
@@ -66,6 +72,13 @@ p {
 
 .nav_bar a:hover {
   color: #30e3cb;
+}
+
+.avatar {
+  width: 7%;
+  position: fixed;
+  left:40px;
+  top:8px;
 }
 
 .top-container {
@@ -105,6 +118,10 @@ p {
   width: 25%;
 }
 
+.myskills {
+  padding-top: 70px;
+}
+
 .skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
@@ -124,7 +141,7 @@ p {
 }
 
 .profile-pic {
-  padding-top: 30px;
+  padding-top: 100px;
   width: 15%;
 }
 
@@ -169,5 +186,12 @@ p {
 .copyright {
   color: #EAF6F6;
   font-size: 0.75rem;
-  padding: 20px 0;
+  padding: 20px 0 5px;
+  margin: 0;
+}
+
+.credits {
+  font-size: 10px;
+  color: #EAF6F6;
+  margin: 0;
 }

@@ -5,18 +5,19 @@
   <meta charset="utf-8">
   <title>Vijay Bhatt</title>
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="icons/vijay.ico">
+  <link rel="icon" href="icons/avataaars.ico">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento">
   <script type="text/javascript" src="js/script.js"></script>
 </head>
 
 <body>
-  <div class="nav_bar" id="navbar">  
+  <div class="nav_bar">
+    <a href="#top"><img class="avatar" src="images/avataaars.png" alt="home-icon"></a>
     <a href="#about"onclick="modify_zindex()">About</a>
     <a href="#work" onclick="modify_zindex()">Work</a>
     <a href="#contact" onclick="modify_zindex()">Contact</a>
   </div>
-  <div class="top-container">
+  <div class="top-container" id="top">
     <img class="top-cloud" src="images/cloud-new.png" alt="cloud-img">
     <h1 class="name">I'm Vijay.</h1>
     <h2 class="desc">a software developer.</h2>
@@ -31,16 +32,16 @@
     </div>
     <hr>
     <div class="skills" id="work">
-      <h2>My Skills.</h2>
+      <h2 class="myskills">My Skills.</h2>
       <div class="skill-row">
-        <img class="java-img" src="images/java.gif" alt="java-gif">
+        <img class="java-img" src="images/clouds.png" alt="java-gif">
         <h3>Server Side - Java, Springboot, Hibernate</h3>
-        <p>I have good level of experience with server side Java and its associated eco-system. I have work experience in building backend code, SOAP and restful APIs, integrations with third party systems etc.</p>
+        <p>I have good level of experience with server side Java and its associated eco-system. I have work experience in building backend code, SOAP and Rest APIs, microservices etc.</p>
       </div>
       <div class="skill-row">
-        <img class="javascript-img" src="images/javascript.gif" alt="javascript-img">
+        <img class="javascript-img" src="images/frontend.png" alt="javascript-img">
         <h3>Front-End - HTML, CSS and Javascript</h3>
-        <p>On the front end side I have experience with JSF Framework. I have extensively used HTML, CSS and Javascript to maintain big enterprise systems.</p>
+        <p>On the front end side I have experience with JSF Framework. I have some experience with HTML, CSS and Javascript and used these technologies to maintain and support frontend systems.</p>
       </div>
     </div>
     <hr>
@@ -57,8 +58,8 @@
     <a class="footer-link" target="_blank" href="https://www.linkedin.com/in/vijayprakashbhatt/">LinkedIn</a>
     <a class="footer-link" target="_blank" href="https://twitter.com/VijayPrakashB15/">Twitter</a>
     <a class="footer-link" target="_blank" href="https://github.com/ttahb">Github</a>
-    <p class="copyright">© 2021 Vijay Prakash Bhatt.</p>
-    <a href="credits.html" target="_blank">Credits</a>
+    <p class="copyright">© 2021 - Vijay Prakash Bhatt.</p>
+    <a class="credits" href="credits.html" target="_blank">Credits</a>
   </div>
 
 </body>
