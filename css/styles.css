@@ -7,9 +7,13 @@ body {
 
 h1 {
   color: #66BFBF;
-  margin: 50px auto 0 auto;
+  margin: 0 auto 0 auto;
   font-family: 'Sacramento', cursive;
   font-size: 5rem;
+  display: inline-block;
+  position: relative;
+  right: 125px;
+  top:20px;
 }
 
 h2 {
@@ -67,7 +71,8 @@ ol {
   right: 0;
   margin-bottom: 10px;
   padding-bottom: 10px;
-  z-index: 1;
+}
+
 }
 
 .nav_bar a:hover {
@@ -84,7 +89,6 @@ ol {
 .top-container {
   padding-top: 100px;
   background-color: #f8fcfc;
-  position: relative;
 }
 
 .middle-container {
@@ -101,21 +105,29 @@ ol {
 }
 
 .top-cloud {
+  display: inline-block;
   width: 15%;
-  position: absolute;
-  top: 80px;
-  right: 300px;
+  position: relative;
+  left: 500px;
+  top: 20px;
+
 }
 
 .bottom-cloud {
   width: 15%;
-  position: absolute;
-  left: 250px;
+  display: inline-block;
+  position: relative;
   bottom: 350px;
+  right: 200px;
+
 }
 
 .mountain {
-  width: 25%;
+  width: 30%;
+  display: inline-block;
+  position: relative;
+  right: 100px;
+  bottom: 75px;
 }
 
 .myskills {
@@ -194,4 +206,84 @@ ol {
   font-size: 10px;
   color: #EAF6F6;
   margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  .nav_bar {
+    background-color: #f8fcfc;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 60px;
+    padding-top: 30px;
+    position: fixed;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    width: 400px;
+    display: inline-block;
+  }
+
+  .avatar {
+    display: inline-block;
+    width: 10%;
+    height: 7%;
+    position: fixed;
+    right: 10px;
+
+  }
+
+  .avatar_link {
+    margin: 0;
+  }
+
+  .top-container {
+    padding-top: 100px;
+    background-color: #f8fcfc;
+    height: 662px;
+  }
+
+  .name {
+    color: #66BFBF;
+    margin: 0 auto 0 10px;
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+    position: relative;
+    right:50px;
+    top:100px;
+    bottom: 0;
+  }
+
+  .desc {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #66BFBF;
+    font-weight: bold;
+    padding-bottom: 10px;
+    position: relative;
+    top: 100px;
+    left: 10px;
+  }
+
+  .mountain {
+    width: 70%;
+    display: inline-block;
+    position: relative;
+    right: 45px;
+    top: 120px;
+  }
+
+  .top-cloud {
+
+    width: 25%;
+    position: relative;
+    left: 180px;
+  }
+
+  .bottom-cloud {
+    width: 25%;
+    left: 0;
+    bottom: 150px;
+
+
+  }
 }
