@@ -320,8 +320,8 @@ ol {
   }
 
   .myskills {
-    padding-top: 75px;
-    padding-bottom: 0px;
+    padding-top: 90px;
+    padding-bottom: 10px;
     margin:0;
   }
 
@@ -332,7 +332,7 @@ ol {
   }
 
   .java-img {
-    width: 75%;
+    width: 70%;
     margin-left: 40px;
     margin-bottom: 20px;
   }
