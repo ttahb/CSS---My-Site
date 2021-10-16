@@ -238,7 +238,7 @@ ol {
 
   .avatar {
     display: inline-block;
-    width: 10%;
+    width: 12%;
     height: 7%;
     position: fixed;
     right: 10px;
@@ -301,7 +301,7 @@ ol {
 
   .profile-pic {
     padding-top: 100px;
-    width: 60%;
+    width: 55%;
   }
 
   h2 {
@@ -320,7 +320,7 @@ ol {
   }
 
   .myskills {
-    padding-top: 100px;
+    padding-top: 90px;
     margin:0;
   }
 
@@ -378,5 +378,9 @@ ol {
     font-size: 0.75rem;
   }
 
+  .bottom-container {
+    background-color: #66BFBF;
+    padding: 35px 0 20px;
+  }
 
 }
