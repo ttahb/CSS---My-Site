@@ -214,7 +214,7 @@ ol {
 }
 
 @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
+  /* For mobile phones: iPhone 6/7/8*/
 
   hr {
     border-style: dotted none none;
@@ -320,7 +320,7 @@ ol {
   }
 
   .myskills {
-    padding-top: 90px;
+    padding-top: 80px;
     margin:0;
   }
 
@@ -380,7 +380,7 @@ ol {
 
   .bottom-container {
     background-color: #66BFBF;
-    padding: 35px 0 20px;
+    padding: 30px 0 20px;
   }
 
 }
