@@ -1,3 +1,8 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
   color: #40514E;
   margin: 0;
@@ -37,7 +42,7 @@ a {
 }
 
 a:hover {
-  color: #EAF6F6;
+  color: #555555;
 }
 
 hr {
@@ -211,6 +216,14 @@ ol {
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
 
+  hr {
+    border-style: dotted none none;
+    width: 40%;
+    border-width: 15px;
+    border-color: #EAF6F6;
+    margin: 125px auto;
+  }
+
   .nav_bar {
     background-color: #f8fcfc;
     font-family: 'Montserrat', sans-serif;
@@ -229,6 +242,7 @@ ol {
     height: 7%;
     position: fixed;
     right: 10px;
+    top: 15px;
 
   }
 
@@ -246,9 +260,9 @@ ol {
     color: #66BFBF;
     margin: 0 auto 0 10px;
     font-family: 'Sacramento', cursive;
-    font-size: 3rem;
+    font-size: 4rem;
     position: relative;
-    right:50px;
+    right:65px;
     top:100px;
     bottom: 0;
   }
@@ -260,30 +274,109 @@ ol {
     font-weight: bold;
     padding-bottom: 10px;
     position: relative;
-    top: 100px;
+    top: 90px;
     left: 10px;
   }
 
   .mountain {
-    width: 70%;
+    width: 85%;
     display: inline-block;
     position: relative;
-    right: 45px;
-    top: 120px;
+    left: 10px;
+    top: 70px;
   }
 
   .top-cloud {
 
-    width: 25%;
+    width: 30%;
     position: relative;
-    left: 180px;
+    left: 240px;
   }
 
   .bottom-cloud {
-    width: 25%;
-    left: 0;
-    bottom: 150px;
-
-
+    width: 30%;
+    right: 110px;
+    top: 100px;
   }
+
+  .profile-pic {
+    padding-top: 100px;
+    width: 60%;
+  }
+
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color: #66BFBF;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+
+  .intro {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.25rem;
+  }
+
+  .myskills {
+    padding-top: 100px;
+    margin:0;
+  }
+
+  .skill-row {
+    width: 75%;
+    margin: 30px 10px 100px 50px;
+    text-align: left;
+  }
+
+  .java-img {
+    width: 75%;
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+
+  .skill-head {
+    font-size: 1.50rem;
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+
+  .skill-desc {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .javascript-img {
+    width: 80%;
+    margin-left: 0;
+    margin-right: 30px;
+    margin-bottom: 20px;
+  }
+
+  .contact-desc {
+    font-size: 1.40rem;
+  }
+
+  .contact-message {
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 40px auto 80px 30px;
+    width: 350px;
+    height: 100px;
+  }
+
+  .footer-link {
+    font-size: 1.25rem;
+  }
+
+  .copyright {
+    font-size: 1rem;
+  }
+
+  .credits {
+    font-size: 0.75rem;
+  }
+
+
 }
